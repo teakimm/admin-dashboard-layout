@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+}
+.sidebar {
+  background-color: #1992d2;
+  flex: 1;
+  min-height: 100vh;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-left: 1.1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.dashboard-image {
+  width: 3.5rem;
+  filter: invert();
+
+}
+.sidebar-icon {
+  width: 1.7rem;
+  filter: invert();
+}
+.link {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 2rem;
+  gap: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.settings {
+  margin-top: 3rem;
+}
+.main {
+  flex: 4;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+.search-bar img {
+  width: 1.5rem;
+  margin-right: 0.8rem;
+}
+.account-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.search-bar input {
+  border: none;
+  background-color: #e0e8f1;
+  border-radius: 1rem;
+  width: 50rem;
+  height: 2.2rem;
+  padding-left: 1.5rem;
+}
+.notif {
+  width: 1.5rem;
+}
+.pfp {
+  border-radius: 50%;
+  width: 2.5rem;
+}
+.create {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem
+}
+.profile {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  gap: 1rem;
+  margin-left: 2rem;
+}
+.profile img {
+  border-radius: 50%;
+  width: 4rem;
+}
+.mini {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-right: 2rem;
+}
+button{
+  background-color: #1992d2;
+  border: none;
+  color: white;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+button:hover {
+  background-color: #2381b4;
+}
+
+button:active {
+  background-color: #2381b4;
+  transform: translateY(2px);
+}
+
+.top-dash {
+  position: relative;
+  padding-bottom: 1rem;
+  box-shadow: 0 5px 5px 2px rgb(0 0 0 / 10%);
+}
+.project-dash {
+  background-color: #e0e8f1;
+  height: 100vh;
+}
+.grid-container {
+  display: grid;
+  background-color: wheat;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10% 10% 10%;
+  height: 100vh;
+}
+.grid-container div{
+  border: 1px solid red;
+}
